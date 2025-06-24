@@ -1,0 +1,33 @@
+Algorithm:Sentence Analizer
+
+Objective:
+To read a sentence character by character, ending with a period, and calculate:
+1. The total number of characters.
+2. The number of words (separated by single spaces).
+3. The number of vowels.
+
+Steps;
+1. Start
+2. Declare three variables:
+
+     length ← 0 → counts number of characters
+
+     words ← 0 → counts number of words
+
+     vowels ← 0 → counts number of vowels
+3. Display message: "Enter a sentence that ends with a period:"
+4. Read the sentence one character at a time.
+5. While the current character is not a period'.':
+    a. Increase length by 1
+    b. If the character is a space:
+        → Increase words by 1
+    c. If the character is a vowel (a, e, i, o, u in both cases):
+        → Increase vowels by 1
+    d. Read next character
+6. When the character is a period '.', increase length by 1 and stop reading
+7. Increase words by 1 ,to include the last word
+8. Display the results:
+   - "Length of sentence =", length
+   - "Number of words =", words
+   - "Number of vowels =", vowels
+9. End
