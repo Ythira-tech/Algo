@@ -1,4 +1,4 @@
-Algorithm:Sentence Analizer
+Algorithm:Sentence Analyzer
 
 Objective:
 To read a sentence character by character, ending with a period, and calculate:
