@@ -1,4 +1,4 @@
-# Algorithm Sentence Analizer
+# Algorithm Sentence Analyzer
 
 ## Description
 This project provides an algorithm that reads a sentence character by character until it reaches a period (`.`), and calculates:
